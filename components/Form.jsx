@@ -16,7 +16,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
       >
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Your AI Prompt
+            Your idea/thought
           </span>
 
           <textarea
@@ -30,9 +30,9 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Field of Prompt{" "}
+            Field of idea{" "}
             <span className='font-normal'>
-              (#product, #webdevelopment, #idea, etc.)
+              (#product, #webdevelopment, #AI, etc.)
             </span>
           </span>
           <input
