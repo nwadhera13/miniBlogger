@@ -9,6 +9,7 @@ const Home = () => (
     </h1>
     <p className='desc text-center'>
       miniBlogger is a fast-paced idea sharing application where you can share your thoughts in short form and search for your favourite topics/users and discover what they have to say.
+      (Since this app is deployed on an external database, it might take some time to fetch the content. Please be patient.)
     </p>
 
     <Feed />
